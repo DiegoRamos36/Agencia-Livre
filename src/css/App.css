@@ -1,0 +1,61 @@
+/* Resolvi deixar todo css externo em um arquivo pois são poucas linhas, maioria via bootstrap5 */
+
+@import 'reset.css';
+
+/* LandingPage */
+
+
+
+/* Fim LandingPage */
+
+/* ATUACAO */
+
+/* Fim ATUACAO */
+.atua img {
+  height: 400px;
+ 
+}
+
+.atua {
+  border: none !important;
+}
+
+
+
+/* Caso/Servicos */
+
+.caso {
+  cursor: pointer;
+ padding: 10px;
+  transition: all .4s ease;
+
+}
+
+.caso:hover {
+  background-color: #eee;
+}
+
+.caso div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.caso h4, .caso h5, .caso h6 {
+  font-size: 16px;
+}
+
+.caso p {
+font-size: 18px;
+max-width: 600px;
+margin: 0 auto;
+}
+
+/* Fim Servicos */
+
+
+
+/* Trabalhe Conosco */
+.assunto {
+  resize: none;
+}
+/* Fim Trabalhe Conosco */
